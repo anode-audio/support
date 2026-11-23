@@ -1,0 +1,64 @@
+name: "Bug: Earshot"
+description: Something in Earshot (the ear-training game) isn't working as it should.
+title: "[earshot] "
+labels: ["bug", "product:earshot"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The more specific
+        you can be, the faster it gets fixed.
+
+  - type: input
+    id: version
+    attributes:
+      label: Earshot version
+      description: Shown on the App Store page under Version History, or in Settings > Apps > Earshot.
+      placeholder: e.g. 1.0.1
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS version
+      placeholder: e.g. iPhone 15, iOS 26.1 / iPad Air M2, iPadOS 26.1
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: Where in the game
+      description: District, suspect or puzzle mode, if it happened in a puzzle.
+      placeholder: e.g. District 4, interval puzzle
+
+  - type: textarea
+    id: describe
+    attributes:
+      label: What happened
+      description: What did you see or hear, and what did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps someone else could follow to get the same result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Screenshots, screen recordings
+      description: Drag and drop files here. A short screen recording with sound helps a lot.
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true

@@ -1,0 +1,103 @@
+name: "Bug: Mecate"
+description: Something in Mecate (the string machine plugin) isn't working as it should.
+title: "[mecate] "
+labels: ["bug", "product:mecate"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The more specific
+        you can be, the faster it gets fixed. Reporting the free Decent
+        Sampler library instead? Use the Decent Sampler form.
+
+  - type: input
+    id: version
+    attributes:
+      label: Mecate version
+      description: "Shown in the ABOUT panel. Example: `1.0.2`."
+      placeholder: e.g. 1.0.2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS (Gumroad)
+        - iPadOS (App Store)
+        - Windows (Gumroad)
+        - Linux
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Plugin format
+      options:
+        - Standalone
+        - AU (macOS)
+        - AUv3 (iPadOS)
+        - VST3
+        - LV2 (Linux)
+    validations:
+      required: true
+
+  - type: input
+    id: host
+    attributes:
+      label: Host app (if plugin)
+      description: The DAW or AUv3 host running Mecate, with its version if you know it. Leave blank if Standalone.
+      placeholder: e.g. Logic Pro 11.2, Reaper 7.40, Bitwig 5.3, AUM 1.5, Loopy Pro 2.0
+
+  - type: input
+    id: os
+    attributes:
+      label: OS version
+      description: Example macOS 15.5, iPadOS 26.1, Windows 11 24H2, Ubuntu 24.04.
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device / hardware
+      description: For iPad, the exact model. For desktop, the CPU is enough. Skip if irrelevant.
+
+  - type: textarea
+    id: describe
+    attributes:
+      label: What happened
+      description: What did you hear or see, and what did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps someone else could follow to get the same result. Name the preset if one is involved.
+      placeholder: |
+        1. Load Mecate in Reaper
+        2. Pick the Ensemble preset
+        3. Hold a chord with the sustain pedal down
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Screenshots, recordings, audio clips
+      description: Drag and drop files here. For sound problems a short audio clip beats any description.
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true
+        - label: I'm on the latest Mecate version (or I'm reporting something specific to an older one).
+          required: true

@@ -1,7 +1,7 @@
-name: Bug report
-description: Something in bitcrust isn't working as it should.
-title: "[bug] "
-labels: ["bug"]
+name: "Bug: Bitcrust"
+description: Something in Bitcrust (the SID synth) isn't working as it should.
+title: "[bitcrust] "
+labels: ["bug", "product:bitcrust"]
 body:
   - type: markdown
     attributes:
@@ -12,7 +12,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: bitcrust version
+      label: Bitcrust version
       description: "Shown in the ABOUT panel (question-mark icon in the header). Example: `1.0.1 (1.0.1.611)`."
       placeholder: e.g. 1.0.1
     validations:
@@ -34,12 +34,12 @@ body:
     id: format
     attributes:
       label: Plugin format
-      description: Which bitcrust build you're running.
+      description: Which Bitcrust build you're running.
       options:
         - Standalone
         - AUv3 (iPadOS)
         - VST3 (Windows / Linux)
-        - AU (macOS — non-App-Store build)
+        - AU (macOS)
         - LV2 (Linux)
     validations:
       required: true
@@ -48,7 +48,7 @@ body:
     id: host
     attributes:
       label: Host app (if plugin)
-      description: The DAW or AUv3 host running bitcrust. Include its version if you know it. Leave blank if Standalone.
+      description: The DAW or AUv3 host running Bitcrust. Include its version if you know it. Leave blank if Standalone.
       placeholder: e.g. Loopy Pro 1.5.7, AUM 1.5, Logic Pro 11.0.1, Reaper 7.20, FL Studio 21.2
 
   - type: input
@@ -103,5 +103,5 @@ body:
       options:
         - label: I searched existing issues and didn't find a duplicate.
           required: true
-        - label: I'm on the latest bitcrust version (or I'm reporting something specific to an older one).
+        - label: I'm on the latest Bitcrust version (or I'm reporting something specific to an older one).
           required: true

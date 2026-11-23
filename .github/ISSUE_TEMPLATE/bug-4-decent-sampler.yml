@@ -1,0 +1,76 @@
+name: "Bug: Decent Sampler libraries"
+description: Something in Bruma or Mecate for Decent Sampler isn't working as it should.
+title: "[decent-sampler] "
+labels: ["bug", "product:decent-sampler"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Problems with the
+        Decent Sampler plugin itself (crashes, installing, the library
+        browser) belong to Decent Samples; this form is for the
+        libraries: samples, presets, the panel.
+
+  - type: dropdown
+    id: library
+    attributes:
+      label: Library
+      options:
+        - Bruma
+        - Mecate for Decent Sampler
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Library version
+      description: The version you downloaded, as shown on the download page or the archive name.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: ds_version
+    attributes:
+      label: Decent Sampler version
+      placeholder: e.g. 1.13.2
+    validations:
+      required: true
+
+  - type: input
+    id: setup
+    attributes:
+      label: OS and host
+      description: Your OS, and the DAW if you run Decent Sampler as a plugin.
+      placeholder: e.g. macOS 15.5, Ableton Live 12.1
+    validations:
+      required: true
+
+  - type: input
+    id: preset
+    attributes:
+      label: Preset
+      placeholder: e.g. Ensemble
+
+  - type: textarea
+    id: describe
+    attributes:
+      label: What happened
+      description: What did you hear, and what did you expect? Name the note or key range if it's one sample.
+    validations:
+      required: true
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Audio clips, screenshots
+      description: Drag and drop files here. A short audio clip of the problem note helps a lot.
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true

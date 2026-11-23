@@ -1,0 +1,51 @@
+name: Feature request
+description: Suggest an improvement or new capability for any Anode Labs product.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Clear use cases get the most traction. A concrete "I want to do
+        X but can't because Y" beats "please add X" every time.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Bitcrust
+        - Mecate
+        - Earshot
+        - Bruma
+        - Mecate for Decent Sampler
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: What are you trying to do?
+      description: "Describe the musical or workflow scenario, not the fix. Example: I want to set a static pulse width on VCO 1 without using the mod matrix."
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: How are you working around it today?
+      description: "Example: an LFO at 0 Hz with a fixed offset, which works but burns a mod slot."
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to see
+      description: If you have a concrete UI or parameter idea, put it here. Implementation is my problem. Skip this if you only know the pain, not the shape of the fix.
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions and didn't find this suggestion.
+          required: true
