@@ -1,5 +1,5 @@
 name: "Bug: Decent Sampler libraries"
-description: Something in Bruma or Mecate for Decent Sampler isn't working as it should.
+description: Something in Bruma, Mecate or Segreteria for Decent Sampler isn't working as it should.
 title: "[decent-sampler] "
 labels: ["bug", "product:decent-sampler"]
 body:
@@ -18,6 +18,7 @@ body:
       options:
         - Bruma
         - Mecate for Decent Sampler
+        - Segreteria
     validations:
       required: true
 

@@ -3,13 +3,14 @@
 Bug reports, feature requests and discussion for the products from
 [Anode Labs](https://anode-labs.com):
 
-| Product                   | Page                                          | Changelog                                               |
-| ------------------------- | --------------------------------------------- | ------------------------------------------------------- |
-| Bitcrust                  | https://anode-labs.com/bitcrust/              | https://anode-labs.com/bitcrust/changelog/              |
-| Mecate                    | https://anode-labs.com/mecate/                | https://anode-labs.com/mecate/changelog/                |
-| Earshot                   | https://anode-labs.com/earshot/               |                                                         |
-| Bruma for Decent Sampler  | https://anode-labs.com/bruma-decent-sampler/  | https://anode-labs.com/bruma-decent-sampler/changelog/  |
-| Mecate for Decent Sampler | https://anode-labs.com/mecate-decent-sampler/ | https://anode-labs.com/mecate-decent-sampler/changelog/ |
+| Product                       | Page                                         | Changelog                                          |
+| ----------------------------- | -------------------------------------------- | -------------------------------------------------- |
+| Bitcrust                      | https://anode-labs.com/bitcrust/             | https://anode-labs.com/bitcrust/changelog/         |
+| Mecate                        | https://anode-labs.com/mecate/               | https://anode-labs.com/mecate/changelog/           |
+| Earshot                       | https://anode-labs.com/earshot/              |                                                    |
+| Bruma for Decent Sampler      | https://anode-labs.com/libraries/bruma/      | https://anode-labs.com/libraries/bruma/changelog/  |
+| Mecate for Decent Sampler     | https://anode-labs.com/libraries/mecate/     | https://anode-labs.com/libraries/mecate/changelog/ |
+| Segreteria for Decent Sampler | https://anode-labs.com/libraries/segreteria/ |                                                    |
 
 All changelogs: https://anode-labs.com/changelog/
 
@@ -35,8 +36,8 @@ Questions, tips, preset sharing and "does this count as a bug?" go in
 
 ## Source code
 
-This repo only holds issues and discussions. Bitcrust, Mecate, Earshot
-and Bruma are closed source; any reference to internal files or commits
+This repo only holds issues and discussions. Bitcrust, Mecate, Earshot,
+Bruma and Segreteria are closed source; any reference to internal files or commits
 in a comment is for context only. The open-source projects
 ([asma](https://github.com/anode-audio/asma),
 [Mecate for Decent Sampler](https://github.com/anode-audio/mecate-decentsampler))

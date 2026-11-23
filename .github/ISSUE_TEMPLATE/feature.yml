@@ -19,6 +19,7 @@ body:
         - Earshot
         - Bruma
         - Mecate for Decent Sampler
+        - Segreteria
     validations:
       required: true
 
