@@ -3,14 +3,14 @@
 Bug reports, feature requests and discussion for the products from
 [Anode Labs](https://anode-labs.com):
 
-| Product                       | Page                                         | Changelog                                          |
-| ----------------------------- | -------------------------------------------- | -------------------------------------------------- |
-| Bitcrust                      | https://anode-labs.com/bitcrust/             | https://anode-labs.com/bitcrust/changelog/         |
-| Mecate                        | https://anode-labs.com/mecate/               | https://anode-labs.com/mecate/changelog/           |
-| Earshot                       | https://anode-labs.com/earshot/              |                                                    |
-| Bruma for Decent Sampler      | https://anode-labs.com/libraries/bruma/      | https://anode-labs.com/libraries/bruma/changelog/  |
-| Mecate for Decent Sampler     | https://anode-labs.com/libraries/mecate/     | https://anode-labs.com/libraries/mecate/changelog/ |
-| Segreteria for Decent Sampler | https://anode-labs.com/libraries/segreteria/ |                                                    |
+| Product                       | Page                                         | Changelog                                              |
+| ----------------------------- | -------------------------------------------- | ------------------------------------------------------ |
+| Bitcrust                      | https://anode-labs.com/bitcrust/             | https://anode-labs.com/bitcrust/changelog/             |
+| Mecate                        | https://anode-labs.com/mecate/               | https://anode-labs.com/mecate/changelog/               |
+| Earshot                       | https://anode-labs.com/earshot/              |                                                        |
+| Bruma for Decent Sampler      | https://anode-labs.com/libraries/bruma/      | https://anode-labs.com/libraries/bruma/changelog/      |
+| Mecate for Decent Sampler     | https://anode-labs.com/libraries/mecate/     | https://anode-labs.com/libraries/mecate/changelog/     |
+| Segreteria for Decent Sampler | https://anode-labs.com/libraries/segreteria/ | https://anode-labs.com/libraries/segreteria/changelog/ |
 
 All changelogs: https://anode-labs.com/changelog/
 
